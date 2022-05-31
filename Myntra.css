@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+/* Navigation Bar */
+nav{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    display: flex;
+   list-style: none;
+   height: 13vh;
+   position: sticky;
+   top: 0;
+}
+nav li{ 
+   list-style: none;
+   margin: 35px 17px;
+   font-weight: bold;
+}
+nav li:hover{ 
+  cursor: pointer;
+  color: red;
+  text-decoration:underline;
+}
+.logo img{
+    width: 4rem;
+    margin: 21px 54px;
+} 
+.input input{
+    width: 23rem;
+   height: 0em;
+   margin: 23px 30px;
+   padding: 18px 12px;
+   border-radius: 1em;
+}
+
+.actions img{ 
+    position: relative;
+    left: 201px;
+    width: 19px;
+    margin-top: 26px;
+    padding: 6px 6px;
+}
+.rightItems{
+    display: flex;
+    margin: -6px 79px;
+    width: 15vw;
+    position: absolute;
+    right: 4px;
+    height: 13vh;
+
+}
+.profile{
+    margin: 6px 6px;
+}
+.profile img{
+    width: 33px;
+}
+.profile span{
+    margin: 0px -1px;
+}
+.whishList{
+    margin: 6px 6px;
+}
+
+.whisList span{
+    margin: 0px 26px;
+}
+.whisList img {
+    width: 19px;
+    margin: 12px 41px;
+}
+.bag{
+    margin: 9px 9px;
+}
+.bag img{
+    width: 29px;
+}
+.bag span{
+    margin: 0px 4px;
+}
+/* section  */
+.section1{
+    background-color: #ededed;
+    height: 55vh;
+    margin: 45px 0px;
+    padding: 28px 146px;
+    justify-content: center;
+    align-items: center;
+}
+.homeImg{
+    width: 80vw;
+    height: 50vh;
+    border-radius: 25px;
+}
+.textBanner {
+    margin: 27px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.section2 {
+    margin: 44px;
+}    
+.section2 img{
+    margin: 3px 3px;
+    border-radius: 6px;
+}  
+  /* Footrs  */
+  .footers{
+    margin: -23px 0px;
+    padding-bottom: 27px;
+    text-align: center;
+
+  }
+  @media (max-width: 1456px) {
+     nav{
+       height: 26vh;
+     }
+     .rightItems{
+         height: 20vh;
+         position: absolute;
+         right: 45rem;
+         left: 40rem;
+         top: 5rem;
+         padding-bottom: 4px;
+        
+     }
+     .section1{
+         max-width: fit-content;
+     }
+      }
+      nav ul li a{
+          color: black;
+          text-decoration: none;
+        }
+      nav ul li a:hover{
+          color: red;
+         cursor: pointer;
+        }
+ 
+
